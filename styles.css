@@ -29,19 +29,19 @@ h1 {
 }
 
 h2 {
-  font-family: "ProductSans";
+  font-family: "Montserrat";
   font-size: 35px;
   font-weight: medium;
   color:rgb(255, 255, 255)
 }
 h3 {
-  font-family:"ProductSans";
+  font-family:"Montserrat";
   font-size: 28px;
   color:rgb(216, 216, 216)
 }
 
 h4 {
-  font-family: "Nexa";
+  font-family: "Montserrat";
   font-size: 24px;
   font-weight: bold;
   color:rgb(166, 111, 255);
@@ -49,7 +49,7 @@ h4 {
 }
 h1
 p {
-  font-family: "ProductSans";
+  font-family: "Montserrat";
   font-size: 1.2em;
   max-width: 50%;
   text-align: center;
