@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "ProductSans";
-  src: url(Users/voidb/Downloads/product-sans/productsansbold.ttf) format("truetype");
+  font-family: "Quicksand";
+  src: url(Users/voidb/Desktop/static/Quicksandttf) format("truetype");
   font-weight: normal;
 }
 @font-face {
-  font-family: "MontserratBold";
-  src: url(Users/voidb/Downloads/Montserrat/mont.ttf) format("truetype");
+  font-family: "Lexend Deca";
+  src: url(Users/voidb/Desktop/static/lexdec.tff) format("truetype");
   font-weight: bold;
 }
 
@@ -17,37 +17,37 @@ body {
   flex-direction: column;
   background: linear-gradient(
     to left,
-    #002c50,
-    #000931
+    #002cbe,
+    #004136
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1 {
   font-size: 39px;
-  font-family: "Montserrat";
+  font-family: "Quicksand";
   color:white
 }
 
 h2 {
-  font-family: "Montserrat";
+    font-family: "Quicksand";
   font-size: 35px;
   color:rgb(255, 255, 255)
 }
 h3 {
-  font-family:"Montserrat";
+    font-family:"Quicksand";
   font-size: 28px;
   color:rgb(216, 216, 216)
 }
 
 h4 {
-  font-family: "Montserrat";
+    font-family: "Quicksand";
   font-size: 24px;
   font-weight: bold;
-  color:rgb(166, 111, 255);
+  color:rgb(211, 211, 211);
   margin: 0;
 }
 h1
 p {
-  font-family: "Montserrat";
+    font-family: "Quicksand";
   font-size: 1.2em;
   max-width: 50%;
   text-align: center;
@@ -86,7 +86,7 @@ header {
 .nav__links a,
 .cta,
 .overlay__content a {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Quicksand", sans-serif;
   font-weight: 500;
   color: #ffffff;
   text-decoration: none;
@@ -111,7 +111,7 @@ header {
 
 .cta {
   padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
+  background-color: rgb(0, 68, 169);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -119,7 +119,7 @@ header {
 }
 
 .cta:hover {
-  background-color: rgba(0, 136, 169, 0.8);
+  background-color: rgba(0, 68, 169, 0.8);
 }
 
 /* Mobile Nav */
@@ -161,7 +161,7 @@ header {
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #0088a9;
+  color: #0057a9;
 }
 .overlay .close {
   position: absolute;
